@@ -1,0 +1,7 @@
+# File not to load on the initial load
+*.bat
+*.psd
+*.*~
+.git
+.gitignore
+README.md

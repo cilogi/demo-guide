@@ -1,0 +1,19 @@
+{
+    "name"   : "gettingHere",
+    "title"  : "Travelling to the Gardens",
+    "markers": [{"id" : "info", "color": "green", "icon": "fa-info", "theme": "Info"},
+              {"id" : "parking", "color": "red", "icon": "fa-car", "theme": "Travel"},
+              {"id" : "tube", "color": "red", "icon": "fa-magnet", "theme": "Travel"}
+    ],
+    "tile"    : "mapnik",
+    "items": [
+        {"description": "Margaret Drive Gate", "latlng": [55.878920, -4.287637], "marker" : "info"},
+        {"description": "Ford Road Gate.", "text": "Parking is available on the roads around this gate.", "latlng": [55.881665, -4.293677], "marker" : "parking"},
+        {"description": "Main Gate", "latlng": [55.877989, -4.289662], "marker" : "info"},
+        {"description": "Hillhead Underground", "text": "Travel from the main stations", "latlng": [55.875232, -4.293385], "marker" : "tube"}
+    ],
+    "zoom"  : {"min" : 15, "max": 17, "start": 16},
+    "sizes" : {"min": 0.5, "max": 1.0, "threshold": 0.75} ,
+    "bounds": {"tl": [55.885317, -4.304213], "br": [55.873582, -4.278614]}
+}
+

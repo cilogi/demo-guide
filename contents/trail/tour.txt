@@ -1,0 +1,7 @@
+# Botanics Trail
+
+about-tours.html              |  Tours
+curators-house.html           |  The Curator's House
+sundial.html                  |  Sundial
+kibble-palace.html            |  Kibble Palace
+

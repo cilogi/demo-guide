@@ -1,0 +1,19 @@
+syntax: glob
+out
+.idea
+*.iml
+*~
+#*
+#*.*
+*.*#
+classes
+blog*.jar
+*.zip
+pro.txt
+*.orig
+.picasa.ini
+.picasaoriginals
+node_modules/
+bower_components/
+.tmp/
+
