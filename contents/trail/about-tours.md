@@ -26,5 +26,7 @@ are (virtually) copied to the tour directory (with the same name) and links adju
 be part of the tour as well as occurring elsewhere.  In this manner a single item can be part of
 different tours in different contexts.
 
-If you wish a tour to include audio or video this should be embedded in a normal page. Similarly,
-any linking material should be included as a normal item.
+If you wish a tour to include audio or video this should be embedded in a normal page.
+
+Any linking material should be included as a normal item, with text that makes it plain its not
+an active part of the tour, and with a link to the map.
