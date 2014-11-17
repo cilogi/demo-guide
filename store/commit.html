@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" /> 
+  <title>Confirm Payment</title> 
+  <link rel="stylesheet" href="../styles/vendor/jquery-mobile/jquery.mobile-1.4.3.min.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/vendor/iconic/iconic_stroke.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/vendor/font-awesome-4.2.0/css/font-awesome.min.css" type="text/css" /> 
+  <!-- build:css styles/local/cilogi-guide.min.css --> 
+  <link rel="stylesheet" href="../styles/local/blog.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/bubble.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/cilogiannim.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/leaflet.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/leaflet.ie.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/panel.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/photoswipe.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/slippy.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/store.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/styles.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/gallery.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/swipe-gallery.css" type="text/css" /> 
+  <link rel="stylesheet" href="../styles/local/w-theme.css" type="text/css" /> 
+  <!-- endbuild --> 
+  <link rel="stylesheet" href="../styles/local/local.css" type="text/css" /> 
+  <script src="http://www.google-analytics.com/analytics.js"></script> 
+  <script src="../scripts/local/mobile-init.js"></script> 
+  <!-- build:js scripts/local/cilogi-guide.min.js --> 
+  <script src="../scripts/vendor/jquery-2.1.1.js"></script> 
+  <script src="../scripts/local/jqmStartup.js"></script> 
+  <script src="../scripts/vendor/jquery.mobile-1.4.3.js"></script> 
+  <script src="../scripts/vendor/jquery.tmpl.js"></script> 
+  <script src="../scripts/vendor/underscore.js"></script> 
+  <script src="../scripts/vendor/backbone.js"></script> 
+  <script src="../scripts/vendor/backbone.localstorage.js"></script> 
+  <script src="../scripts/vendor/mustache.js"></script> 
+  <script src="../scripts/vendor/leaflet-src.js"></script> 
+  <script src="../scripts/vendor/klass.min.js"></script> 
+  <script src="../scripts/vendor/code.photoswipe.jquery-3.0.5.js"></script> 
+  <script src="../scripts/vendor/swipe-gallery.js"></script> 
+  <script src="../scripts/local/log.js"></script> 
+  <script src="../scripts/local/mobile-init.js"></script> 
+  <script src="../scripts/local/cilogi-fns.js"></script> 
+  <script src="../scripts/local/slides.js"></script> 
+  <script src="../scripts/local/store/cilogi-store-init.js"></script> 
+  <script src="../scripts/local/store/models/lineItemModel.js"></script> 
+  <script src="../scripts/local/store/models/skuModel.js"></script> 
+  <script src="../scripts/local/blog.js"></script> 
+  <script src="../scripts/local/slippy.js"></script> 
+  <script src="../scripts/local/mustache-templates.js"></script> 
+  <script src="../scripts/local/store/collections/storeCollection.js"></script> 
+  <script src="../scripts/local/store/collections/cartCollection.js"></script> 
+  <script src="../scripts/local/store/templates.js"></script> 
+  <script src="../scripts/local/store/globals.js"></script> 
+  <script src="../scripts/local/store/views/renderMustache.js"></script> 
+  <script src="../scripts/local/store/views/cartView.js"></script> 
+  <script src="../scripts/local/store/views/commitView.js"></script> 
+  <script src="../scripts/local/store/views/itemView.js"></script> 
+  <script src="../scripts/local/store/views/storeView.js"></script> 
+  <script src="../scripts/local/store/views/categoryView.js"></script> 
+  <script src="../scripts/local/store/app.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/base.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/BubbleIcon.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/CRS.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/GeoJson.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/initPage.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/map.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/render.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/runPage.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/buttonControl.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/titleControl.js"></script> 
+  <script src="../scripts/local/cilogiLeaflet/zoomControl.js"></script> 
+  <script src="../scripts/local/cache.js"></script> 
+  <script src="../scripts/local/cilogiannim.js"></script> 
+  <script src="../scripts/local/persist.js"></script> 
+  <script src="../scripts/local/wiki.js"></script> 
+  <script src="../scripts/local/navbar-init.js"></script> 
+  <script src="../scripts/local/navbar.js"></script> 
+  <script src="../scripts/local/keypad.js"></script> 
+  <script src="../scripts/local/script.js"></script> 
+  <script src="../scripts/vendor/IndexedDBShim.js"></script> 
+  <script src="../scripts/local/analytics/idb/base.js"></script> 
+  <script src="../scripts/local/analytics/idb/hit.js"></script> 
+  <script src="../scripts/local/analytics/idb/idb.js"></script> 
+  <script src="../scripts/local/analytics/idb/packet.js"></script> 
+  <script src="../scripts/local/analytics/idb/control.js"></script> 
+  <script src="../scripts/local/analytics/override.js"></script> 
+  <script src="../scripts/local/analytics.js"></script> 
+  <script src="../scripts/local/local.js"></script> 
+  <!-- endbuild --> 
+  <script>
+    $.ajaxSetup({isLocal:true});
+    cilogi.store.app.init(cilogi.sitePrefix + "store/");
+    cilogi.log("head loaded");
+</script> 
+ </head> 
+ <body> 
+  <div id="shop-commit-page" data-role="page" class="hide-me"> 
+   <div id="main-panel" class="main-panel" data-role="panel"> 
+    <div data-role="header"> 
+     <div data-role="navbar"> 
+      <ul class="no-listview shadow"> 
+       <li> <a style="float:right" href="#" class="nav-dia fa fa-times" data-rel="close"></a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <ul class="sidemenu" data-role="listview"> 
+     <li><a href="../index.html">Home</a></li> 
+     <li><a href="../contents/info/opening.html">Opening times / information</a></li> 
+     <li><a href="../contents/info/travel.html">Getting here</a></li> 
+     <li><a href="../diagrams/botanics.html">Map of the Gardens</a></li> 
+     <li><a href="../contents/trail/index.html">The Botanics Trail</a></li> 
+     <li><a href="../contents/info/guide.html">Using this guide</a></li> 
+     <li><a href="../contents/info/cilogi-tech.html">Cilogi technology</a></li> 
+     <li><a href="http://home.cilogi.com/qr/site/demo-guide/store/commit.html">QR</a></li>
+    </ul> 
+   </div> 
+   <!--
+<div data-role="header">
+    <include "inc/navbar.ftl">
+</div>
+--> 
+   <div id="shop-commit" data-role="content"> 
+   </div>
+   <!-- content --> 
+  </div>
+  <!-- /page -->  
+ </body>
+</html>

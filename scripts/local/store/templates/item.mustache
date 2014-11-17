@@ -1,0 +1,61 @@
+    <!--
+        {{#optionList}}
+        {{name}}
+        {{/optionList}}
+    -->
+    <h1>{{item.title}}</h1>
+    <a class="cart-widget" href="cart.html"><span class="cart-count">{{cart.count}} </span></a>
+    <div>
+      {{^item.images}}
+
+      {{^code}}
+      <img class="item-image" alt="{{item.title}}" src="{{imageRoot}}{{item.image}}" />
+      {{/code}}
+
+      {{#code}}
+        <div>
+            <canvas id="frame-canvas" style="width:100%" width="{{code.width}}" height="{{code.height}}" data-frame="none"></canvas>
+        </div>
+        <div class="inline-select">
+            <label for="select-frame" class="select">Select frame</label>
+            <select name="select-frame" id="select-frame" data-mini="true" data-inline="true">
+                {{#optionList}}
+                <option value="{{name}}" {{#sel}}selected{{/sel}}>{{name}}</option>
+                {{/optionList}}
+            </select>
+        </div>
+      {{/code}}
+
+      {{/item.images}}
+
+      {{#item.images}}
+      <div id="mySwipe" style="margin:0px auto;" class="swipe" data-width="{{item.images.width}}" data-height="{{item.images.height}}">
+          <div class="swipe-wrap">
+              {{#item.images.urls}}
+              <div class="slideImage" style="background:url({{imageRoot}}{{.}}) center no-repeat;background-size: contain"></div>
+              {{/item.images.urls}}
+          </div>
+          <div style="position:absolute; bottom: 0; left: 0px; margin:auto; text-align:center; width:100%; line-height: 2em;">Swipe for gallery</div>
+      </div>
+      {{/item.images}}
+
+    </div>
+
+    <div class="item-info">
+        <div class="item-title">{{item.title}}</div>
+        <div class="item-description">{{item.description}}</div>
+        <div class="item-price">&pound;{{price}}</div>
+        <div class="store-item-form">
+          <p>
+            <input class="item-id" type="hidden" name="item-id" value="{{item.id}}" />
+            <label>Quantity:</label>
+            <input class="item-quantity" name="quantity" size="2" type="number" value="1" />
+          </p>
+          <p>
+             <button class="addItem ui-btn ui-corner-all">Add to Cart</button>
+          </p>
+        </div>
+        <div class="back-link">
+          <a class="ui-btn ui-corner-all" href="index.html">Back to Store</a>
+        </div>
+    </div>

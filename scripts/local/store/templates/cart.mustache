@@ -1,0 +1,38 @@
+    <h1>Your Cart</h1>
+    <div>
+        <div>
+            <ul class="main-cart" data-role="listview" data-inset="true" data-split-icon="delete">
+                {{#lines}}
+                    <li>
+                        <a href="item.html?id={{sku.id}}">
+                            <img src="{{imageRoot}}{{sku.thumb}}" alt="thumbnail image"/>
+                            <h3>{{sku.title}}</h3>
+                            {{#count}}
+                                {{count}} x &pound;{{sku.unitPrice}} =
+                            {{/count}}
+                            &pound;{{cost}}</p>
+                        </a>
+                        <a href="#" data-id="{{sku.id}}" class="cart-remove">Remove item</a>
+                    </li>
+                {{/lines}}
+            </ul>
+        </div>
+
+        <div class="cart-summary">
+            {{#hasContents}}
+                <div style="clear:both"></div>
+                <p><span class="cart-head">Subtotal:</span><span class="cart-item">{{cost}}</span></p>
+                <p><span class="cart-head">Shipping:</span><span class="cart-item">{{shippingCost}}</span></p>
+                <p><span class="cart-head">Total:</span><span class="cart-item">&pound;{{totalCost}}</span></p>
+            {{/hasContents}}
+        </div>
+
+        <div style="margin-top: 4em">
+            <form class="pay" action="{{storeHost}}/pay" method="post" data-ajax="false">
+                <input id="store-name-field" type="hidden" name="Cilogi-Store-Name" value="">
+                <input id="cart-contents" type="hidden" name="cart" value="">
+                <input type="submit" data-role="button" value="Pay with PayPal">
+            </form>
+            <a data-role="button" href="index.html">Go to Store</a>
+        </div>
+    </div>

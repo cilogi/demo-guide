@@ -1,0 +1,16 @@
+{
+    "filesize" : {
+        "max" : 120,
+        "except" : [
+                "*.html",
+                "scripts/*",
+                "styles/*"
+        ]
+    },
+    "blogs" : [
+            "blog/"
+    ],
+    "theme" : "jqm",
+    "uiTheme" : "w",
+    "email": "compiler@cilogi.com"
+}

@@ -1,0 +1,381 @@
+.gloss {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+.leaflet-popup {
+  text-shadow: none;
+}
+.triangle-isosceles-blue {
+  width: 0;
+  height: 0;
+  position: absolute;
+  padding: 1em;
+  margin: 0;
+  color: black;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  background: #000099;
+  /* default background for browsers without gradient support */
+
+  /* css3 */
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#0000ff), to(#000099));
+  background: -moz-linear-gradient(#0000ff, #000099);
+  background: -o-linear-gradient(#0000ff, #000099);
+  background: linear-gradient(#0000ff, #000099);
+  -moz-box-shadow: 0 0 0 1px #000000;
+  -webkit-box-shadow: 0 0 0 1px #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+.triangle-isosceles-blue:after {
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  /* value = - border-top-width - border-bottom-width */
+
+  left: 0.5em;
+  /* controls horizontal position */
+
+  border-width: 0.5em 0.5em 0;
+  /* vary these values to change the angle of the vertex */
+
+  border-style: solid;
+  border-color: #000099 transparent;
+  /* reduce the damage in FF3.0 */
+
+  display: block;
+  width: 0em;
+}
+.triangle-isosceles-red {
+  width: 0;
+  height: 0;
+  position: absolute;
+  padding: 1em;
+  margin: 0;
+  color: black;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  background: #990000;
+  /* default background for browsers without gradient support */
+
+  /* css3 */
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff0000), to(#990000));
+  background: -moz-linear-gradient(#ff0000, #990000);
+  background: -o-linear-gradient(#ff0000, #990000);
+  background: linear-gradient(#ff0000, #990000);
+  -moz-box-shadow: 0 0 0 1px #000000;
+  -webkit-box-shadow: 0 0 0 1px #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+.triangle-isosceles-red:after {
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  /* value = - border-top-width - border-bottom-width */
+
+  left: 0.5em;
+  /* controls horizontal position */
+
+  border-width: 0.5em 0.5em 0;
+  /* vary these values to change the angle of the vertex */
+
+  border-style: solid;
+  border-color: #990000 transparent;
+  /* reduce the damage in FF3.0 */
+
+  display: block;
+  width: 0em;
+}
+.triangle-isosceles-black {
+  width: 0;
+  height: 0;
+  position: absolute;
+  padding: 1em;
+  margin: 0;
+  color: black;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  background: #000000;
+  /* default background for browsers without gradient support */
+
+  /* css3 */
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+  background: -moz-linear-gradient(#000000, #000000);
+  background: -o-linear-gradient(#000000, #000000);
+  background: linear-gradient(#000000, #000000);
+  -moz-box-shadow: 0 0 0 1px #000000;
+  -webkit-box-shadow: 0 0 0 1px #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+.triangle-isosceles-black:after {
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  /* value = - border-top-width - border-bottom-width */
+
+  left: 0.5em;
+  /* controls horizontal position */
+
+  border-width: 0.5em 0.5em 0;
+  /* vary these values to change the angle of the vertex */
+
+  border-style: solid;
+  border-color: #000000 transparent;
+  /* reduce the damage in FF3.0 */
+
+  display: block;
+  width: 0em;
+}
+.triangle-isosceles-green {
+  width: 0;
+  height: 0;
+  position: absolute;
+  padding: 1em;
+  margin: 0;
+  color: black;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  background: #009900;
+  /* default background for browsers without gradient support */
+
+  /* css3 */
+
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#00ff00), to(#009900));
+  background: -moz-linear-gradient(#00ff00, #009900);
+  background: -o-linear-gradient(#00ff00, #009900);
+  background: linear-gradient(#00ff00, #009900);
+  -moz-box-shadow: 0 0 0 1px #000000;
+  -webkit-box-shadow: 0 0 0 1px #000000;
+  box-shadow: 0 0 0 1px #000000;
+}
+.triangle-isosceles-green:after {
+  content: "";
+  position: absolute;
+  bottom: -0.5em;
+  /* value = - border-top-width - border-bottom-width */
+
+  left: 0.5em;
+  /* controls horizontal position */
+
+  border-width: 0.5em 0.5em 0;
+  /* vary these values to change the angle of the vertex */
+
+  border-style: solid;
+  border-color: #009900 transparent;
+  /* reduce the damage in FF3.0 */
+
+  display: block;
+  width: 0em;
+}
+.bubble {
+  font-size: 1.5em;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 1.33em;
+  position: absolute;
+  left: 0em;
+  top: 0em;
+}
+.shine {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0px;
+  height: 50%;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  background-color: rgba(255, 255, 255, 0.15);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(top, bottom, from(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0)));
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.orange {
+  color: orange;
+}
+.white {
+  color: white;
+}
+/* Popup stuff */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: green;
+  box-shadow: 0 3px 10px #888;
+  -moz-box-shadow: 0 3px 10px #888;
+  -webkit-box-shadow: 0 3px 14px #999;
+}
+.leaflet-popup-content-wrapper {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+.leaflet-popup-content {
+  font: 12px/1.4 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.leaflet-popup-close-button {
+  overflow: visible;
+  background: green;
+  color: white;
+}
+.leaflet-popup-close-button:before {
+  display: inline-block;
+  color: white;
+  font-family: 'IconicStroke';
+  content: '\e047';
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-content-wrapper a {
+  color: white;
+}
+.cpu-content {
+  text-align: center;
+  margin: 10px 0;
+}
+.cpu-image {
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightGreen;
+  width: 180px;
+  height: 90px;
+  background-size: cover;
+}
+.cpu-text {
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightGreen;
+  width: 180px;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+.cpu-close {
+  float: left;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+.cpu-theme {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+}
+.cpu-link {
+  float: right;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+.cpu-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.eye:before {
+  content: '\e025';
+  line-height: 1.5em;
+}
+.leaflet-control-zoom a {
+  width: 40px;
+  height: 40px;
+}
+
+/* not in less yet */
+
+.leaflet-center {
+    width: 100%;
+    background-color: transparent;
+    color: transparent;
+    z-index: 1;
+}
+
+.leaflet-control-cilogiZoom, .leaflet-control-button {
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	padding: 5px;
+	background-color: transparent;
+	width:100%;
+	margin-bottom: 0 !important;
+	text-shadow: none;
+}
+
+.leaflet-control-cilogiZoom a, .leaflet-control-button a {
+    margin: 0 auto;
+    opacity: 0.6;
+    font-size: 250%;
+    text-decoration: none;
+    line-height: 0.9em;
+    text-align: center;
+	background-color: transparent;
+	display: block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+}
+
+.leaflet-control-cilogiZoom a {
+    margin-bottom: 0.5em !important;
+}
+
+
+.leaflet-control-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    color: black;
+    font-size: 140%;
+    line-height: 1em;
+    margin-top: 0 !important;
+}
+
+/* Set the font size of the top row of icons */
+.ui-navbar li .nav-dia  {
+    font-size: 23px;
+    color: white;
+    border: none;
+}
+
+
+.dia-header {
+    opacity: 1;
+}
+
+.dia-header a.ui-disabled {
+    color: gray;
+}
+
+#popup {
+    color: white;
+}
+
+

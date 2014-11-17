@@ -1,0 +1,1 @@
+cilogi.store.app.init(cilogi.root + "store/");

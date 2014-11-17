@@ -1,0 +1,19 @@
+.ui-dialog-contain .full {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#image {
+    background-color: black;
+}
+
+.ui-dialog-contain {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+}

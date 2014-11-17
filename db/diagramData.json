@@ -1,0 +1,230 @@
+{
+    "map1": {
+        "features": [
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.289220779058667,
+                        55.87950087526061
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "red",
+                        "imageUrl": "contents/trail/images/curators-house.jpg",
+                        "linkUrl": "contents/trail/curators-house.html",
+                        "theme": "Historical Site",
+                        "text": "",
+                        "title": "Curator's House"
+                    },
+                    "options": {
+                        "fontIconColor": "red",
+                        "fontIconName": "fa-eye"
+                    },
+                    "id": 1,
+                    "type": "Point"
+                }
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.289647441203186,
+                        55.87905646079942
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "blue",
+                        "imageUrl": "contents/trail/images/sundial.jpg",
+                        "linkUrl": "contents/trail/sundial.html",
+                        "theme": "Botanics Trail",
+                        "text": "",
+                        "title": "Sundial"
+                    },
+                    "options": {
+                        "fontIconColor": "blue",
+                        "fontIconName": "fa-eye"
+                    },
+                    "id": 2,
+                    "type": "Point"
+                }
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.28907837151516,
+                        55.87886127990773
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "green",
+                        "imageUrl": "contents/trail/images/kibble-palace.jpg",
+                        "linkUrl": "contents/trail/kibble-palace.html",
+                        "theme": "Botanics Trail",
+                        "text": "",
+                        "title": "Kibble Palace"
+                    },
+                    "options": {
+                        "fontIconColor": "green",
+                        "fontIconName": "star"
+                    },
+                    "id": 3,
+                    "type": "Point"
+                }
+            }
+        ],
+        "type": "FeatureCollection",
+        "params": {
+            "name": "map1",
+            "title": "Gardens & River Walk",
+            "home": "../index.html",
+            "next": "map2",
+            "isImage": false,
+            "root": "images/map1/",
+            "imageType": "png",
+            "tileSize": 512,
+            "center": [
+                55.879674,
+                -4.2858285
+            ],
+            "zoom": {
+                "min": 15,
+                "max": 17,
+                "start": 16
+            },
+            "sizes": {
+                "15": "0.5",
+                "16": "1.2",
+                "17": "2"
+            }
+        }
+    },
+    "gettingHere": {
+        "features": [
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.287637,
+                        55.87892
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "green",
+                        "theme": "Info",
+                        "text": "",
+                        "title": "Margaret Drive Gate"
+                    },
+                    "options": {
+                        "fontIconColor": "green",
+                        "fontIconName": "fa-info"
+                    },
+                    "type": "Point"
+                }
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.293677,
+                        55.881665
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "red",
+                        "theme": "Travel",
+                        "text": "Parking is available on the roads around this gate.",
+                        "title": "Ford Road Gate."
+                    },
+                    "options": {
+                        "fontIconColor": "red",
+                        "fontIconName": "fa-car"
+                    },
+                    "type": "Point"
+                }
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.289662,
+                        55.877989
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "green",
+                        "theme": "Info",
+                        "text": "",
+                        "title": "Main Gate"
+                    },
+                    "options": {
+                        "fontIconColor": "green",
+                        "fontIconName": "fa-info"
+                    },
+                    "type": "Point"
+                }
+            },
+            {
+                "geometry": {
+                    "coordinates": [
+                        -4.293385,
+                        55.875232
+                    ],
+                    "type": "Point"
+                },
+                "type": "Feature",
+                "properties": {
+                    "popup": {
+                        "color": "red",
+                        "theme": "Travel",
+                        "text": "Travel from the main stations",
+                        "title": "Hillhead Underground"
+                    },
+                    "options": {
+                        "fontIconColor": "red",
+                        "fontIconName": "fa-magnet"
+                    },
+                    "type": "Point"
+                }
+            }
+        ],
+        "type": "FeatureCollection",
+        "params": {
+            "name": "gettingHere",
+            "title": "Travelling to the Gardens",
+            "home": "../index.html",
+            "isImage": false,
+            "root": "images/gettingHere/",
+            "imageType": "png",
+            "tileSize": 256,
+            "center": [
+                55.8794495,
+                -4.2914135
+            ],
+            "zoom": {
+                "min": 14,
+                "max": 16,
+                "start": 15
+            },
+            "sizes": {
+                "14": "0.5",
+                "15": "0.8",
+                "16": "1"
+            },
+            "tile": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        }
+    }
+}

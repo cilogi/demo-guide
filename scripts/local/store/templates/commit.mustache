@@ -1,0 +1,34 @@
+    <div>
+       <h1>Your Order</h1>
+       <table class="confirm-table">
+           <tr><th>Description</th><th class="right">Quantity</th><th class="right">Cost</th></tr>
+           {{#cart.lineItems}}
+               <tr>
+                   <td>{{sku.title}}</td>
+                   <td class="right">{{count}}</td>
+                   <td class="right">{{cost}}</td>
+               </tr>
+           {{/cart.lineItems}}
+           <tr><td class="emph td-space">Tax</td><td></td><td class="td-space right">{{cart.tax}}</td></tr>
+           <tr><td class="emph">Shipping</td><td></td><td class="right">{{cart.shipping}}</td></tr>
+           <tr><td class="emph">Total</td><td></td><td class="emph right">&pound;{{cart.totalCost}}</td></tr>
+       </table>
+       <p>An email will be sent to <code>{{details.Payer}}</code> confirming your order.  You will not
+          be charged until the order ships.</p>
+       <p>You order will be shipped to the following address:</p>
+       <address>
+           {{details.PayerName.firstName}} {{details.PayerName.lastName}}<br>
+           {{details.Address.street1}}<br>
+           {{details.Address.cityName}}<br>
+           {{details.Address.stateOrProvince}} {{details.Address.postalCode}}<br>
+           {{details.Address.country}}
+       </address>
+           <div id="finalize" style="display:none">
+           <p id="transactionID"></p>
+           <a  href="../index.html" data-role="button" data-theme="e">Home</a>
+           </div>
+           <!--
+           <button id="buy" type="submit" href="#" data-role="button" data-theme="e" value="Yes, buy now"></button>
+           <button id="dont-buy" href="/index.html" data-role="button" style="color:red;">No, dont buy</button>
+           -->
+    </div>

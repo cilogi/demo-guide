@@ -1,0 +1,436 @@
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: none;
+}
+
+.ui-header h1 {
+    line-height: 2em;       
+}
+
+.ui-header .ui-btn {
+    margin-top: 0.5em;
+}
+
+
+.dot {
+    margin-left: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+h4 a.right  {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+h4 a.left  {
+    position: absolute;
+    left: 10px;
+    bottom: 1px;
+}
+
+h4.dot {
+    margin: 0.2em auto 0.2em auto !important;
+    position:relative;
+    min-height: 30px !important;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+.ui-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.bottom-button {
+    margin-top: 0.6em;
+    margin-bottom: 0.8em;    
+}
+
+.long-title {
+    margin-right: 10px !important;
+    margin-left: 110px !important;
+}
+
+div.ui-content p, div.ui-content ul, div.ui-content ol, div.ui-collapsible-content p {
+    /*font-family: Georgia, serif;
+    text-align: justify;*/
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    line-height: 1.25em;
+    text-shadow: none;
+    margin-left: 10px;
+    font-weight: normal;
+    padding: 0;
+}
+
+
+div.cilogi-content p {
+    margin-left: 10px;
+    font-size: 14pt;
+}
+
+div.ui-content ol {
+    margin-left: 10px;
+    padding: 0.75em;
+}
+
+div.ui-content ul  {
+    margin-left: 15px;
+    padding: 0.75em;
+}
+
+div.ui-content li p {
+    margin-left: 0;
+}
+
+div.ui-collapsible-content {
+    padding-left: 0;
+    border: none !important;
+}
+
+div.ui-collapsible-content ol,  div.ui-collapsible-content ul {
+    padding-left: 0;
+}
+
+div.ui-content ul.ui-listview li, div.ui-content ol.ui-listview li {
+    margin-left: 0;
+}
+
+
+p, li {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear:right;
+}
+h1 {
+    margin-left: 10px;
+    font-size: 1.45em;
+}
+
+h2 {
+    margin-left: 10px;
+    clear: right;
+    clear: right;
+}
+
+h2, h2.ui-collapsible-heading {
+    font-weight: bold;
+    font-size: 0.95em;
+    line-height: 0.6em;
+    margin-left: 10px;
+}
+
+div.ui-content p.date {
+    margin-bottom: 0.3em;
+    margin-top: 0;
+    color: gray;
+}
+
+div.more {
+    margin-left: 20px;
+    margin-top : -0.3em;
+}
+
+div.more a {
+    text-decoration: none;
+}
+
+div.more a:hover {
+    color: #2434CE;
+}
+
+#entries h2 {
+    margin-bottom: -0.3em;
+    font-size: 1.15em;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+#entries h2 a {
+    text-decoration: none;
+    color: #2489CE;
+}
+
+#entries h2 a:hover {
+    text-decoration: none;
+    color: #2434CE;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+h4, h5, h6  {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.ui-collapsible-heading {
+    margin-bottom: 0.2em;
+    line-height: 0.9em;
+}
+
+.ui-collapsible-heading a {
+    border: none;
+}
+
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-icon {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+.gallery-icon:hover {
+    top: 2px;
+    left:2px;
+    opacity: 1.0;
+}
+
+.no-standalone .only-standalone {
+    display: none;
+}
+
+.ui-title {
+    margin: .6em 40px .8em !important;
+}
+
+div.gallery {
+    margin: 3px;
+}
+
+div.inline-slippy, div.inline-gallery {
+    margin: 0 10px 10px 10px;
+}
+
+div.inline-slippy img, div.inline-gallery img {
+    margin-left: auto; margin-right: auto; display: block;
+}
+
+@media all and (min-width: 520px) {
+    .toplevel div.inline-slippy, .toplevel div.inline-gallery {
+        float: right;
+        clear:right;
+    }
+
+}
+
+.toplevel {
+    padding-bottom: 100px;
+}
+
+div.next {
+    width: 5px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -25px;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+div.prev {
+    width: 5px;
+    height: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    margin-top: -25px;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.ui-header {
+    opacity: 1;
+    background-image: none;
+}
+
+.ui-navbar {
+    background-color: transparent;
+}
+
+.ui-navbar a {
+    opacity: 1;
+    font-weight: 600;
+}
+
+.ui-navbar .ui-btn-inner {
+    background-image: none;
+    border-color:#111;
+}
+
+.ui-navbar .ui-btn-up-a {
+    background-image: none;
+    background-color: transparent;
+}
+
+.ui-body-w {
+    background-image: none;
+    background-color: white;
+}
+
+.bg .ui-body-w {
+    background-color: transparent;
+}
+
+#keypad h2 {
+    margin: 0.1em 0;
+    border: 1px dotted;
+    padding: 0.1em 0;
+    font-size: 3em;
+    height: 1em;
+    line-height: 1em;
+}
+
+
+#keypad.ui-dialog .ui-header, #keypad.ui-dialog .ui-content, #keypad.ui-dialog .ui-footer {
+    margin: 3px;
+    position: relative;
+    padding: 3px;
+}
+
+#keypad .ui-bar {
+    padding: 0.5em 15px;
+}
+
+#keypad-input {
+    margin-left: 1em;
+}
+
+#keypad .keypad {
+    font-size: 1.5em;
+}
+
+#keypad .keypad:hover {
+    background-color: #444;
+}
+
+#keypad .keypad:active {
+    background-color: #666;
+}
+
+.bg p, .bg .cilogi-content ul, .bg .cilogi-content ol, .bg .cilogi-content li {
+    font-weight: 600 !important;
+    -webkit-text-fill-color: black;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#cartred  { color: red; }
+#cartblack  { color: white; }
+
+audio, .tour-buttons {
+    width: 100%;
+    clear: both;
+}
+
+.tour-buttons a {
+    width: 44%;
+}
+
+.tour-buttons .ui-controlgroup-controls {
+    width: 100%;
+}
+
+.tour-buttons .ui-btn-icon-left{
+    padding-left: 0;
+}
+
+.tour-buttons .ui-btn-icon-right {
+    padding-right: 0;
+}
+
+.thumb {
+    margin-left: 10px;
+}
+
+/* For the icons */
+
+.shadow .ui-btn-up-a, .shadow .ui-btn-up-a:visited {
+    text-shadow: none;
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    border: none;
+    color: white;
+}
+
+.ui-grid-d > :nth-child(n) {
+    width: 19.925%;
+}
+
+.mapbox{
+    position: relative;
+    width: 95%; /* desired width */
+    margin: 0 auto;
+}
+.mapbox:before{
+    content: "";
+    display: block;
+    padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+.mapbox-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/** Red shop icon for top navbar **/
+.ui-icon-shop-red:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20style%3D%22fill%3A%23FF0000%3B%22%20d%3D%22M10%2C4V3c0-1.657-1.343-3-3-3S4%2C1.343%2C4%2C3v1H1v10h12V4H10z%20M4.5%2C6C4.224%2C6%2C4%2C5.776%2C4%2C5.5%20S4.224%2C5%2C4.5%2C5S5%2C5.224%2C5%2C5.5S4.776%2C6%2C4.5%2C6z%20M5%2C3c0-1.104%2C0.896-2%2C2-2c1.104%2C0%2C2%2C0.896%2C2%2C2v1H5V3z%20M9.5%2C6C9.225%2C6%2C9%2C5.776%2C9%2C5.5%20S9.225%2C5%2C9.5%2C5S10%2C5.224%2C10%2C5.5S9.775%2C6%2C9.5%2C6z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+/** Feedback when navbar button is pressed **/
+#external-navbar li:active {
+    background-color: #a88;
+}
+
+#external-navbar li:hover {
+    background-color: #422;
+}
+
+#external-navbar .variable {
+    background-color: #262626;
+}
+
+#external-navbar li a {
+    border:none;
+}
+
+
+

@@ -1,0 +1,50 @@
+/*
+ * CSS for the annotated image component.  The first bit is obligatory in order to get
+ * things to look right, the latter part is optional.
+ */
+
+.ui-content .cilogi-zoom {
+    padding: 0;
+    background-color: white;
+}
+
+.diagram .ui-content {
+    padding: 0;
+    margin: 0;
+}
+
+.diagram div.ui-content p {
+    margin: 0;
+    padding: 0;
+}
+
+.cilogi-zoom .zoom-plus {
+    position: absolute;
+    top: 50px;
+    left:0px;
+    opacity:0.4;
+}
+
+.cilogi-zoom .zoom-minus {
+    position: absolute;
+    top: 80px;
+    left:0px;
+    opacity:0.4;
+}
+
+.cilogi-zoom {
+    position: relative;
+    border: 1px solid lightgray;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.cilogi-zoom img {
+    position:relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: none;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0 ;
+}

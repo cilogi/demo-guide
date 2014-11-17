@@ -1,0 +1,20 @@
+    <div>
+        <h1>Shop</h1>
+
+        <div class="shop-info">
+            <a class="cart-widget" href="cart.html"><span class="cart-count">{{cart.count}}</span></a>
+            <a data-role="button" href="categories.html" id="categories" data-mini="true" data-icon="arrow-d" data-inline="true" class="ui-btn-right">Categories</a>
+        </div>
+        <ul data-role="listview">
+            {{#models}}
+            <li class="item">
+                <a class="item-entry" href="item.html?id={{id}}">
+                  <img alt="{{title}}" src="{{imageRoot}}{{thumb}}" />
+                  <h3 class="item-title">{{title}}</h3>
+                  <p class="item-description">{{description}}</p>
+                  <p class="item-price">{{unitPrice}}</p>
+                </a>
+            </li>
+            {{/models}}
+        </ul>
+    </div>

@@ -1,0 +1,70 @@
+.shop-info {
+    background-color: #dcc;
+    height: 50px;
+}
+
+.cart-widget {
+	background: black url(images/cart.png) left center no-repeat;
+    height: 38px;
+    margin-bottom: 2em;
+    padding-left: 55px;
+    margin-left: 10px;
+    font-size: 2em;
+}
+
+.shop-info a.ui-btn-right {
+    float: right;
+    margin-top: 0.5em;
+    margin-right:10px
+}
+
+.cart-head {
+    font-weight: bold;
+    float: left;
+    width: 120px;
+}
+
+.cart-item {
+    float: right;
+    text-align: right;
+    width: 60px;
+}
+
+a.cart-widget {
+    text-decoration: none;
+}
+
+.cart-summary p {
+    clear: both;
+}
+
+.cart-widget {
+    height: 50px;
+    background-color: #dcc;
+    line-height: 50px;
+    text-shadow: none;
+}
+
+.item-image {
+    max-width: 95%;
+}
+
+.item-title {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.item-description {
+    margin-bottom: 1em;
+}
+
+.item .ui-li-thumb  {
+    left: 10px;
+    top: 0.7em;
+}
+
+.item h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
