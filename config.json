@@ -12,5 +12,9 @@
     ],
     "theme" : "jqm",
     "uiTheme" : "w",
-    "email": "compiler@cilogi.com"
+    "email": "compiler@cilogi.com",
+    "compile": {
+        "compress": false,
+        "offline": false
+    }
 }
