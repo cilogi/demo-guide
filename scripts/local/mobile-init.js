@@ -26,7 +26,7 @@ cilogi.log = function() {
 cilogi.resourcePath = "scripts/local/mobile-init.js";
 cilogi.rootPath = "../../";
 
-cilogi.host = "http://home.cilogi.com";
+cilogi.host = "http://cilogi.github.io";
 cilogi.sitePrefix = "/demo-guide/";
 
 cilogi.diagramId = null;
