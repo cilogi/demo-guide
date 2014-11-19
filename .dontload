@@ -2,6 +2,6 @@
 *.bat
 *.psd
 *.*~
-.git
+.git/*
 .gitignore
 README.md
