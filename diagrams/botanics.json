@@ -6,7 +6,7 @@
               {"id" : "blue", "color": "blue", "icon": "fa-eye", "theme": "Botanics Trail"},
               {"id" : "news", "color": "blue", "icon": "fa-bullseye", "theme": "What's New"}
     ],
-    "tile"    : "mapnik",
+    "provider"    : "mapnik",
     "image"  : {"src" : "images/botanics1200optpsCOL.png",
                 "locates": [
                     {"pixel": [6, 42], "latlng": [55.881681,-4.293718], "tag": "top gate"},

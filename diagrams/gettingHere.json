@@ -5,7 +5,7 @@
               {"id" : "parking", "color": "red", "icon": "fa-car", "theme": "Travel"},
               {"id" : "tube", "color": "red", "icon": "fa-magnet", "theme": "Travel"}
     ],
-    "tile"    : "mapnik",
+    "provider"    : "mapnik",
     "items": [
         {"description": "Margaret Drive Gate", "latlng": [55.878920, -4.287637], "marker" : "info"},
         {"description": "Ford Road Gate.", "text": "Parking is available on the roads around this gate.", "latlng": [55.881665, -4.293677], "marker" : "parking"},
