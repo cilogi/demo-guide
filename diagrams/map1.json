@@ -1,24 +1,69 @@
-{
-    "name"   : "map1",
-    "title"  : "Gardens & River Walk",
-    "markers": [{"id" : "green", "color": "green", "icon": "star", "font": "iconic", "theme": "Botanics Trail"},
-              {"id" : "red", "color": "red", "icon": "fa-eye", "theme": "Historical Site"},
-              {"id" : "blue", "color": "blue", "icon": "fa-eye", "theme": "Botanics Trail"},
-              {"id" : "news", "color": "blue", "icon": "fa-bullseye", "theme": "What's New"}
-    ],
-    "provider"    : "mapnik",
-    "image"  : {"src" : "images/botanics1200optpsCOL.png",
-                "locates": [
-                    {"pixel": [6, 42], "latlng": [55.881681,-4.293718], "tag": "top gate"},
-                    {"pixel": [1139, 241], "latlng": [55.878952,-4.287736], "tag": "side gate"},
-                    {"pixel": [1009, 603], "latlng": [55.878045,-4.289697], "tag": "main gate"}
-                 ]
+{"name": "map1", "title": "Map of the Botanic Gardens", "provider": "osm", "image": {
+    "src": "images/botanics1200optpsCOL.png",
+    "opacity": 1.0,
+    "locates": [
+        {
+            "pixel": [0.0, 0.0],
+            "latlng": [55.881858772213135, -4.2935729026794425],
+            "tag": "nw corner"
+        },
+        {
+            "pixel": [1200.0, 0.0],
+            "latlng": [55.87961494227534, -4.286578104800032],
+            "tag": "ne corner"
+        },
+        {
+            "pixel": [1200.0, 650.0],
+            "latlng": [55.87748959158185, -4.288744926452637],
+            "tag": "se corner"
+        },
+        {
+            "pixel": [0.0, 650.0],
+            "latlng": [55.87973354436089, -4.295739724332048],
+            "tag": "sw corner"
+        }
+    ]
+}, "markers": [
+    {
+        "id": "default",
+        "icon": "fa-star",
+        "color": "green",
+        "theme": "Item Locator"
     },
-    "items": [{ "id": 1,  "description": "Curator's House", "pixel": [878, 224], "marker": "red"},
-              { "id": 2,  "description": "Sundial", "pixel": [880, 359],  "marker": "blue"},
-              { "id": 3,  "description": "Kibble Palace", "pixel": [980, 363]}],
-    "nextMap"  : "map2",
-    "zoom"  : {"min" : 16, "max": 18, "start": 17},
-    "sizes" : {"min": 0.5, "max": 2.0, "threshold": 1.0} ,
-    "bounds": {"tl": [55.884759,-4.294045], "br": [55.874589,-4.277612]}
-}
+    {
+        "id": "red",
+        "icon": "fa-star",
+        "color": "red",
+        "theme": "Red"
+    }
+], "items": [
+    {
+        "id": 1,
+        "description": "Curator's House",
+        "pixel": [878, 224],
+        "marker": "red"
+    },
+    {
+        "id": 2,
+        "description": "Sundial",
+        "pixel": [880, 359],
+        "marker": "red"
+    },
+    {
+        "id": 3,
+        "description": "Kibble Palace",
+        "pixel": [980, 363]
+    }
+], "bounds": {
+    "tl": [55.884759, -4.294045],
+    "br": [55.874589, -4.277612]
+}, "zoom": {
+    "min": 16,
+    "max": 18,
+    "start": 17
+}, "sizes": {
+    "min": 0.5,
+    "max": 2.0,
+    "threshold": 1.0
+}}
+
