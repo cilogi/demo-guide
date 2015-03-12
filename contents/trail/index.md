@@ -1,3 +1,4 @@
+index: 300
 background: images/kibble-dome.jpg
 
 # A sample tour

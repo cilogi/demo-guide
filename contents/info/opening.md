@@ -1,3 +1,5 @@
+index: 200
+
 # Opening Times
 
 ![Dome of the Kibble Palace](images/kibble-roof.jpg)
