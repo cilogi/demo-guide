@@ -2,7 +2,7 @@ index: 1
 
 ## Curator's House/Visitor Centre (1840)
 
-![The Curator's House and Visitor Centre](images/curators-house.jpg)
+![The Curator's House and Visitor Centre](curators-house.jpg)
 
 The Botanic Gardens Trail which should take
 approximately 1 hr and 30 minutes begins at the Visitor

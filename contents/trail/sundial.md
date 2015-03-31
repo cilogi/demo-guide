@@ -2,7 +2,7 @@ index: 2
 
 ### Sundial
 
-![The Sundial](images/sundial.jpg)
+![The Sundial](sundial.jpg)
 
 The sundial was made for the Botanic Gardens in
 the early 19th Century. It stands on a millstone

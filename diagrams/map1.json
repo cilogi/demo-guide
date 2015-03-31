@@ -1,5 +1,5 @@
 {"name": "map1", "title": "Map of the Botanic Gardens", "provider": "osm", "image": {
-    "src": "images/botanics1200optpsCOL.png",
+    "src": "botanics1200optpsCOL.png",
     "opacity": 1.0,
     "locates": [
         {

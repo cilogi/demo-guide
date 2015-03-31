@@ -2,6 +2,7 @@
     "id": "botanics-trail",
     "title": "The Botanics Trail",
     "description": "The trail is about 90 minutes long and starts at the Curator's house.",
+    "background": "kibble-dome.jpg",
     "stops": [
         {
             "id": 204,
