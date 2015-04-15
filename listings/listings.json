@@ -5,7 +5,7 @@
         {
             "title":"The Botanics Trail in Images",
             "description": "Images from the Botanics Trail",
-            "type": "text",
+            "type": "image",
             "tags" : ["trail"]
         }
     ]
