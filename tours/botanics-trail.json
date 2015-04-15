@@ -5,11 +5,8 @@
     "background": "kibble-dome.jpg",
     "stops": [
         {
-            "id": 204,
-            "intro": "The Curator's House is the recommended start of the tour."
-        },
-        {
-            "id": 1
+            "id": 1,
+            "intro": "The Curator's House is the recommended start of the Botanics Trail, which takes about 90 minutes."
         },
         {
             "id": 2

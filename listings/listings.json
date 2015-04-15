@@ -1,0 +1,12 @@
+{
+    "title": "Listing for the Demo Guide",
+    "description": "See how listings work",
+    "listings": [
+        {
+            "title":"The Botanics Trail in Images",
+            "description": "Images from the Botanics Trail",
+            "type": "text",
+            "tags" : ["trail"]
+        }
+    ]
+}

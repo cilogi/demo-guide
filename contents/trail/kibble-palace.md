@@ -1,4 +1,5 @@
 index: 3
+tag: trail
 
 ## Kibble Palace (1873)
 
