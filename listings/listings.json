@@ -4,6 +4,7 @@
     "metaData": {"background": ["jasminum-rex.jpg"]},
     "listings": [
         {
+            "id": "trail",
             "title":"The Botanics Trail in Images",
             "description": "Images from the Botanics Trail",
             "type": "image",

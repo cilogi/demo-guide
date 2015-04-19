@@ -339,7 +339,7 @@ Here is an example:
     
     * Lists are easy
     * just use an asterisk
-    * Links [like this](/wiki.html?target=Link]
+    * Links [like this](/wiki.html?target=Link)
     
     ![An image](images/sample.png)
     
