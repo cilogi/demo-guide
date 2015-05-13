@@ -41,6 +41,12 @@
         "icon": "fa-exclamation",
         "color": "black",
         "theme": "Item Locator"
+    },
+    {
+        "id": "toilets",
+        "icon": "fa-toilets",
+        "color": "red",
+        "theme": "Toilets"
     }
 ], "items": [
     {
@@ -65,7 +71,7 @@
         "description": "Toilets",
         "text": "Disabled and nursing.  Open 9:00-4:45 in summer, 9:00-4:15 winter",
         "pixel": [1111, 209],
-        "icon": "fa-female"
+        "marker": "toilets"
 
     }
 ], "bounds": {

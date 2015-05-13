@@ -1,7 +1,8 @@
 index: 1
 tag: trail
+tag: background-size:cover
 
-## Curator's House/Visitor Centre (1840)
+## Curator's House (1840)
 
 ![The Curator's House and Visitor Centre](curators-house.jpg)
 

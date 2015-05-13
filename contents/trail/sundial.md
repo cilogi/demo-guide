@@ -10,4 +10,4 @@ the early 19th Century. It stands on a millstone
 taken from the flint mill site by the Kelvin at
 North Woodside.
 
-There is a good view of the [Kibble Palace](page/3) from here.
+There is a good view of the [Kibble Palace](kibble-palace.html) from here.

@@ -1,0 +1,17 @@
+      <div style="width:100%; height: 300px; margin-top: -20px; background-image: url(../../media/images/sundial.jpg); background-size: cover;">
+       <h1>Sundial</h1>
+      </div>
+      <div style="width:100%; height:1em; background-color:black;">&nbsp;</div>
+
+      <div class="slick" style="margin-bottom:0;">
+          <div style="width:100%; height: 300px; margin-top: -20px; background-image: url(../../media/images/sundial.jpg); background-size: cover;">
+               <h1>Sundial</h1>
+          </div>
+          <div style="width:100%; height: 300px; margin-top: -20px; background-image: url(../../media/images/kibble-palace.jpg); background-size: cover;">
+               <h1>Kibble Palace</h1>
+          </div>
+          <div style="width:100%; height: 300px; margin-top: -20px; background-image: url(../../media/images/curators-house.jpg); background-size: cover;">
+               <h1>Curator's house</h1>
+          </div>
+      </div>
+      <div style="width:100%; height:1em; background-color:black;">&nbsp;</div>
