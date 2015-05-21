@@ -1,6 +1,5 @@
 index: 1
 tag: trail
-tag: background-size:cover
 
 ## Curator's House (1840)
 

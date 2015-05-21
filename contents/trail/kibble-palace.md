@@ -1,6 +1,6 @@
 index: 3
 tag: trail
-tag: background-size:cover
+tag: image-display:cover
 
 ## Kibble Palace (1873)
 
