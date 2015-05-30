@@ -43,10 +43,28 @@
         "theme": "Item Locator"
     },
     {
+        "id": "listing",
+        "icon": "fa-list",
+        "color": "blue",
+        "iconColor": "yellow",
+        "shape": "circle",
+        "theme": "Listing"
+    },
+    {
+        "id": "map",
+        "icon": "fa-compass",
+        "color": "blue",
+        "iconColor": "yellow",
+        "shape": "circle",
+        "theme": "Plants"
+    },
+    {
         "id": "toilets",
         "icon": "fa-toilets",
-        "color": "red",
-        "theme": "Toilets"
+        "color": "brown",
+        "iconColor" : "white",
+        "theme": "Toilets",
+        "shape": "circle"
     }
 ], "items": [
     {
@@ -67,12 +85,24 @@
         "pixel": [980, 363]
     },
     {
+        "id": 400,
+        "description": "Chronological Border",
+        "pixel": [267, 466],
+        "marker": "map"
+    },
+    {
         "id": 50,
         "description": "Toilets",
         "text": "Disabled and nursing.  Open 9:00-4:45 in summer, 9:00-4:15 winter",
         "pixel": [1111, 209],
         "marker": "toilets"
 
+    },
+    {
+        "id": 500,
+        "description": "Begonias in the Gardens",
+        "pixel": [652, 347],
+        "marker": "listing"
     }
 ], "bounds": {
     "tl": [55.884759, -4.294045],

@@ -1,0 +1,18 @@
+{
+    "name" : "chrono16",
+    "title": "Chronological border 16th Century",
+
+    "markers": [{"id" : "green", "color": "green", "icon": "fa-star", "theme": "Plant"}],
+
+    "image": {"src" : "chronological-c16.jpg"},
+
+    "items": [{ "id": 40, "description": "Plant A", "pixel": [197, 411], "marker": "green"},
+              { "id": 41, "description": "Plant B", "pixel": [436, 345], "marker": "green"}],
+
+    "prevMap": "map1",
+
+    "zoom": {"min" : 1, "max": 4, "start": 3},
+    "sizes": {"min": 0.5, "max": 2.0, "threshold": 1.0},
+    "layer": 1,
+    "metaData": {"index": [400]}
+}
