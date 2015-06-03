@@ -1,4 +1,4 @@
-{"name": "map1", "title": "Map of the Botanic Gardens", "provider": "osm", "image": {
+{"name": "map1", "title": "Map of the Botanic Gardens", "provider": "osm", "showLocation": true, "cluster": true, "image": {
     "src": "botanics1200optpsCOL.png",
     "opacity": 1.0,
     "locates": [
