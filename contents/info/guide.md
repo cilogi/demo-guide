@@ -28,7 +28,7 @@ From left to right these are:
   an exhibit to be taken directly to it..
 * _Shop_.  If the cart is red takes you to items particularly
     appropriate for the current page (see the
-    [Kibble Palace](../trail/kibble-palace.html) entry for an
+    [Kibble Palace](page/3) entry for an
     example). Otherwise brings up the shop.
 * _Tour_.  Some pages are part of a larger tour.  If the page you
     are on is part of a tour then touching this menu item will take
