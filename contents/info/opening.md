@@ -1,4 +1,5 @@
 index: 200
+tag: info
 
 # Opening Times
 
